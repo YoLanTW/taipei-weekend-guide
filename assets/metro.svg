@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Metro to the hills</title>
+  <desc id="desc">A playful illustration of a metro train travelling from the city toward green hills.</desc>
+  <rect width="900" height="560" fill="#f7f5ef"/>
+  <path d="M0 360Q145 240 300 355T600 335T900 320V560H0Z" fill="#c7dfd4"/>
+  <path d="M0 415Q190 300 350 420T680 380T900 390V560H0Z" fill="#1f8379"/>
+  <path d="M0 490h900" stroke="#17324d" stroke-width="9"/>
+  <g fill="#17324d"><rect x="120" y="165" width="445" height="175" rx="28"/><rect x="580" y="205" width="135" height="135" rx="24"/></g>
+  <g fill="#dcefe8"><rect x="160" y="205" width="105" height="62" rx="8"/><rect x="290" y="205" width="105" height="62" rx="8"/><rect x="420" y="205" width="105" height="62" rx="8"/><rect x="610" y="240" width="62" height="44" rx="8"/></g>
+  <g fill="#f0715b"><circle cx="210" cy="350" r="28"/><circle cx="480" cy="350" r="28"/><circle cx="645" cy="350" r="25"/></g>
+  <path d="M94 115h620" stroke="#f0715b" stroke-width="8" stroke-dasharray="20 20"/>
+  <circle cx="95" cy="115" r="14" fill="#f3c86a"/><circle cx="715" cy="115" r="14" fill="#f3c86a"/>
+</svg>

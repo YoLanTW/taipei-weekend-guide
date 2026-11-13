@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Taipei skyline at sunset</title>
+  <desc id="desc">A warm illustration of Taipei 101, smaller buildings, green hills, and a sunset.</desc>
+  <defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f6cf85"/><stop offset="1" stop-color="#f6a77d"/></linearGradient></defs>
+  <rect width="900" height="560" fill="url(#sky)"/>
+  <circle cx="690" cy="150" r="70" fill="#fff0b0" opacity=".8"/>
+  <path d="M0 385Q150 285 300 380T610 350T900 335V560H0Z" fill="#7eb39d"/>
+  <path d="M0 430Q180 350 350 425T680 400T900 405V560H0Z" fill="#316c73"/>
+  <g fill="#17324d"><path d="M100 375h64v185h-64zM178 340h54v220h-54zM250 400h76v160h-76zM610 375h62v185h-62zM690 345h70v215h-70zM780 395h48v165h-48z"/></g>
+  <g fill="#f3c86a"><path d="M112 395h12v14h-12zM138 395h12v14h-12zM191 365h12v14h-12zM217 365h12v14h-12zM270 425h12v14h-12zM294 425h12v14h-12zM628 400h12v14h-12zM654 400h12v14h-12zM712 370h12v14h-12zM738 370h12v14h-12zM797 420h10v14h-10z"/></g>
+  <g fill="#f7f5ef"><path d="M420 210h92v350h-92zM402 260h128v18H402zM410 320h112v18H410zM416 380h100v18H416zM422 440h88v18H422z"/><path d="M432 155h68v55h-68zM445 105h42v50h-42zM455 55h22v50h-22z"/></g>
+  <path d="M0 560h900" stroke="#f3c86a" stroke-width="8" opacity=".7"/>
+</svg>

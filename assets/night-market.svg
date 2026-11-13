@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Taipei night market</title>
+  <desc id="desc">A colourful illustration of food stalls under lanterns at night.</desc>
+  <rect width="900" height="560" fill="#17324d"/>
+  <circle cx="730" cy="120" r="65" fill="#f3c86a" opacity=".9"/>
+  <path d="M0 350h900v210H0z" fill="#2f5561"/>
+  <path d="M95 230h710v24H95zM135 254h630v205H135z" fill="#f0715b"/>
+  <path d="M175 290h180v155H175zM380 290h180v155H380zM585 290h140v155H585z" fill="#f3c86a"/>
+  <g fill="#17324d"><path d="M220 320h90v48h-90zM430 320h80v48h-80zM620 320h75v48h-75z"/><path d="M250 390h32v55h-32zM455 390h28v55h-28zM645 390h28v55h-28z"/></g>
+  <g fill="#fff0b0"><circle cx="160" cy="140" r="24"/><circle cx="250" cy="140" r="24"/><circle cx="340" cy="140" r="24"/><circle cx="430" cy="140" r="24"/><circle cx="520" cy="140" r="24"/><circle cx="610" cy="140" r="24"/><circle cx="700" cy="140" r="24"/></g>
+  <g fill="#f0715b"><path d="M144 116h32v48h-32zM234 116h32v48h-32zM324 116h32v48h-32zM414 116h32v48h-32zM504 116h32v48h-32zM594 116h32v48h-32zM684 116h32v48h-32z"/></g>
+  <path d="M95 470h710" stroke="#f7f5ef" stroke-width="8" opacity=".5"/>
+</svg>

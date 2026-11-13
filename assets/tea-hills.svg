@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Tea hills near old Taipei</title>
+  <desc id="desc">A calm green illustration of rolling tea hills, a river, and old rooftops.</desc>
+  <rect width="900" height="560" fill="#dcefe8"/>
+  <circle cx="720" cy="120" r="75" fill="#f3c86a"/>
+  <path d="M0 330Q190 170 355 330T700 300T900 300V560H0Z" fill="#77ad91"/>
+  <path d="M0 405Q180 275 385 410T760 365T900 370V560H0Z" fill="#1f8379"/>
+  <path d="M0 485Q215 385 450 480T900 450V560H0Z" fill="#f7f5ef"/>
+  <g fill="#17324d"><path d="M100 386h115v90H100zM80 386l78-58 78 58z"/><path d="M278 408h95v68h-95zM260 408l65-50 65 50z"/><path d="M512 430h120v72H512zM490 430l82-62 82 62z"/></g>
+  <g fill="#f0715b"><path d="M116 410h22v18h-22zM156 410h22v18h-22zM294 430h20v16h-20zM328 430h20v16h-20zM536 450h22v18h-22zM576 450h22v18h-22z"/></g>
+  <path d="M0 510Q180 450 360 510T720 490T900 500" fill="none" stroke="#7eb39d" stroke-width="22"/>
+</svg>

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Build a flexible Taipei day plan by selecting activities and seeing the total time.">
+  <title>Plan a Day | Taipei Weekend Guide</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Taipei Weekend Guide home">
+      <span class="brand-mark">TW</span>
+      <span>Taipei Weekend Guide</span>
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html">Start here</a>
+      <a href="destinations.html">Destinations</a>
+      <a class="active" aria-current="page" href="itinerary.html">Plan a day</a>
+      <a href="tips.html">Find your style</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-wrap inner-hero compact-hero">
+      <p class="eyebrow">Interactive feature 01</p>
+      <h1>Build a day that<br><em>still has breathing room.</em></h1>
+      <p class="lede narrow">Select a few ideas below. Your plan updates instantly, so you can see how much time is left for the unexpected.</p>
+    </section>
+
+    <section class="page-wrap planner-layout section-block" aria-labelledby="planner-heading">
+      <div class="planner-options">
+        <div class="section-heading compact-heading">
+          <div>
+            <p class="eyebrow">Pick your stops</p>
+            <h2 id="planner-heading">A little of everything</h2>
+          </div>
+        </div>
+        <form id="planner-form">
+          <fieldset class="activity-list">
+            <legend class="sr-only">Choose activities for your day plan</legend>
+            <label class="activity-option">
+              <input type="checkbox" data-activity-id="tea" data-activity-name="Tea and old streets" data-activity-duration="90">
+              <span class="activity-check" aria-hidden="true">+</span>
+              <span class="activity-copy"><strong>Tea and old streets</strong><small>Dadaocheng · 90 min</small></span>
+            </label>
+            <label class="activity-option">
+              <input type="checkbox" data-activity-id="gondola" data-activity-name="Gondola to Maokong" data-activity-duration="150">
+              <span class="activity-check" aria-hidden="true">+</span>
+              <span class="activity-copy"><strong>Gondola to Maokong</strong><small>Hillside views · 150 min</small></span>
+            </label>
+            <label class="activity-option">
+              <input type="checkbox" data-activity-id="bookstore" data-activity-name="Quiet bookstore stop" data-activity-duration="60">
+              <span class="activity-check" aria-hidden="true">+</span>
+              <span class="activity-copy"><strong>Quiet bookstore stop</strong><small>Xinyi · 60 min</small></span>
+            </label>
+            <label class="activity-option">
+              <input type="checkbox" data-activity-id="market" data-activity-name="Night-market supper" data-activity-duration="120">
+              <span class="activity-check" aria-hidden="true">+</span>
+              <span class="activity-copy"><strong>Night-market supper</strong><small>Raohe · 120 min</small></span>
+            </label>
+          </fieldset>
+        </form>
+        <p class="helper-note">Tip: leave at least 60 minutes unplanned for a snack, a photo, or a wrong turn.</p>
+      </div>
+
+      <aside class="plan-summary" aria-live="polite">
+        <div class="summary-topline"><span>Your draft plan</span><span class="summary-status">Live</span></div>
+        <div class="summary-number"><span id="plan-count">0</span><small>stops</small></div>
+        <p class="summary-duration"><span id="plan-duration">0</span> minutes of ideas</p>
+        <div class="summary-divider"></div>
+        <ul id="plan-list" class="plan-list"><li class="empty-plan">Choose a stop to start your list.</li></ul>
+        <a class="text-link" href="destinations.html">Review destination notes <span aria-hidden="true">→</span></a>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="page-wrap footer-inner">
+      <p><strong>Taipei Weekend Guide</strong><br>Plan less. Notice more.</p>
+      <div class="footer-links">
+        <a href="tips.html">Take the travel-style quiz</a>
+        <a href="index.html">Back to start</a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
