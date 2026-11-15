@@ -18,7 +18,7 @@ function run(name, callback) {
 run('the project has four connected HTML pages with shared navigation and CSS', () => {
   for (const page of pages) {
     const source = fs.readFileSync(path.join(root, page), 'utf8');
-    assert.match(source, /href="css\/style\.css"/);
+    assert.match(source, /href="css\/style\.css(?:\?[^\"]*)?"/);
     assert.match(source, /src="js\/script\.js"/);
     for (const destination of pages) {
       assert.match(source, new RegExp(`href="${destination}"`));
